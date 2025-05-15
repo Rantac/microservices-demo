@@ -44,7 +44,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: frontend
+          image: 891377305743.dkr.ecr.us-east-1.amazonaws.com/panda/frontend:latest
           ports:
           - containerPort: 8080
           readinessProbe:
