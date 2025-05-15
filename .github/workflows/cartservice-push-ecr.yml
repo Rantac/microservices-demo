@@ -30,7 +30,7 @@ jobs:
 
       - name: Build Docker image (cartservice)
         run: |
-          docker build -t $ECR_REPOSITORY$ECR_REPOSITORY_SERVICE:$IMAGE_TAG ./src/cartservice
+          docker build -t $ECR_REPOSITORY$ECR_REPOSITORY_SERVICE:$IMAGE_TAG ./src/cartservice/src
 
       - name: Push Docker image to ECR (cartservice)
         run: |
